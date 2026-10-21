@@ -1,4 +1,168 @@
---!nocheck
---!nolint
--- Obscura [66291793bb779e03]
-local _ptqhlsa=(function() local _efcnydakzmy='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/' local _ftgqebmhwfg={} for l1l11Ill=1,#(_efcnydakzmy) do _ftgqebmhwfg[string.sub(_efcnydakzmy,l1l11Ill,l1l11Ill)]=l1l11Ill-1 end local _hzpbihazd={218,142,205,11,192,3,189,14} local _0x75f834e7={} local _0xb202b=6139 local _0xd28c2f=237 return function(llII1l1Il1l,_0x3d13eb65,_0x3dfc) local _wxkvsepm_l=_0x75f834e7[_0x3dfc] if _wxkvsepm_l then return _wxkvsepm_l end local _wvwcdncxt=bit32.bxor(_0x3d13eb65,_0xb202b+_0x3dfc*131) local _0xbe51340=math.floor(_wvwcdncxt/256) local _0xbf7d=_wvwcdncxt-_0xbe51340*256 local _k_tixpogn={} local _0xdfebd=1 local _0xca717f=0 local __gtqptboc=0 for _0xbcae=1,#(llII1l1Il1l) do local _jb__yqdqly=string.sub(llII1l1Il1l,_0xbcae,_0xbcae) local lI11111111Il=_ftgqebmhwfg[_jb__yqdqly] if lI11111111Il then _0xca717f=_0xca717f*64+lI11111111Il __gtqptboc=__gtqptboc+6 if __gtqptboc>=8 then __gtqptboc=__gtqptboc-8 local _bzjhsae=math.floor(_0xca717f/2^__gtqptboc) _0xca717f=_0xca717f-_bzjhsae*2^__gtqptboc local _finshgrgmb=((_0xdfebd+_0xbe51340+_0x3dfc)%#_hzpbihazd)+1 local llIIII1lI=(_0xbe51340+_0xdfebd*_0xbf7d+bit32.bxor(_hzpbihazd[_finshgrgmb],_0xd28c2f)+_0x3dfc*17)%256 _k_tixpogn[_0xdfebd]=string.char(bit32.bxor(_bzjhsae,llIIII1lI)) _0xdfebd=_0xdfebd+1 end end end local lII1111II=table.concat(_k_tixpogn) _0x75f834e7[_0x3dfc]=lII1111II return lII1111II end end)() local _I1IlII1lI11l={[9]="ir4hE42qpQ==",[17]="KcX9GI2oJWYrp8flq74Wbg==",[7]="3hK9q5uB/2cc",[11]="OBM5kFQ0cS5I",[4]="Ak747Jmt/p87ZvDkvtLlhw==",[12]="QPTQdUVJkg04qHI=",[6]="Oti35g==",[10]="pZ39F3w=",[8]="INzAG4coSfTEj5XRdOwArw==",[16]="NZ0RHJs=",[15]="3OhrZ/bzbfDv6w==",[2]="X4grwMxhbQ==",[14]="vzagg4INN3+L6IGG",[1]="zMvhAFHVvrbi3g==",[3]="REyzqN/YLY2dRA==",[5]="d8nBPkvGdIyeFgg=",[13]="jVpnBA7mGlrhp89yZ1c="} local _0x0fb112=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32329,32328)],6689,bit32.bxor(32329,32328))) local lllII11lIIl=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32330,32328)],5288,bit32.bxor(32330,32328))) local _ccpeeqg=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32331,32328)],32729,bit32.bxor(32331,32328))) local _0xa1772910=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32332,32328)],38040,bit32.bxor(32332,32328))) local _svxsukjans=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32333,32328)],55229,bit32.bxor(32333,32328))) local _0x48de62=workspace.CurrentCamera local _ipww_vwyl=lllII11lIIl.LocalPlayer local lIIIII111Il={Holding=false} local l1II1I1lI1=(bit32.bxor(36,201)-197) local _cnurlyam={} local _fnak_vob=RaycastParams.new() _fnak_vob.FilterType=Enum.RaycastFilterType.Blacklist _fnak_vob.IgnoreWater=true local function l1lIIlIl1111l1() local _eermbowixoj=_ipww_vwyl.Character if not _eermbowixoj then return end for __bj_nwmhw,_pclrbhfvisrvs in ipairs(_eermbowixoj:GetChildren()) do if _pclrbhfvisrvs:IsA(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32334,32328)],11256,bit32.bxor(32334,32328))) then return _pclrbhfvisrvs end end end local _0x0d2cf886=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32335,32328)],34829,bit32.bxor(32335,32328))) _0x0d2cf886.Name=_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32320,32328)],59828,bit32.bxor(32320,32328)) _0x0d2cf886.ResetOnSpawn=false _0x0d2cf886.Parent=game:GetService(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32321,32328)],38231,bit32.bxor(32321,32328))) local _owshpia=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32322,32328)],56402,bit32.bxor(32322,32328))) _owshpia.Size=UDim2.new(0,(bit32.bxor(558,129)-467),0,(bit32.bxor(280,52))) _owshpia.Position=UDim2.new(0,((58+(-38))),0.5,-((math.floor(750/5)))) _owshpia.BackgroundColor3=Color3.fromRGB((bit32.bxor(211,128)-58),(bit32.bxor(91,66)),(math.floor(100/4))) _owshpia.BorderSizePixel=0 _owshpia.Active=true _owshpia.Draggable=true _owshpia.Parent=_0x0d2cf886 local llIlI11lIl=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32323,32328)],63467,bit32.bxor(32323,32328))) llIlI11lIl.Size=UDim2.new(1,0,0,(bit32.bxor(480,71)-393)) llIlI11lIl.BackgroundColor3=Color3.fromRGB((bit32.bxor(12,109)-57),(math.floor(160/4)),(bit32.bxor(128,168))) llIlI11lIl.Text=_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32324,32328)],22998,bit32.bxor(32324,32328)) llIlI11lIl.TextColor3=Color3.new(1,1,1) llIlI11lIl.Font=Enum.Font.SourceSansBold llIlI11lIl.TextSize=(bit32.bxor(127,111)) llIlI11lIl.Parent=_owshpia local IlI1II1l1I=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32325,32328)],21047,bit32.bxor(32325,32328))) IlI1II1l1I.Size=UDim2.new(1,-(((283-29)-244)),1,-(((79-11)-28))) IlI1II1l1I.Position=UDim2.new(0,(bit32.bxor(326,1)-322),0,(math.floor(140/4))) IlI1II1l1I.BackgroundTransparency=1 IlI1II1l1I.ScrollBarThickness=(bit32.bxor(238,234)) IlI1II1l1I.CanvasSize=UDim2.new(0,0,0,0) IlI1II1l1I.Parent=_owshpia local _Ill1II1II1=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32326,32328)],51044,bit32.bxor(32326,32328))) _Ill1II1II1.Padding=UDim.new(0,(bit32.bxor(211,215))) _Ill1II1II1.Parent=IlI1II1l1I local function _galtribi() for _cogxftuo,_0x6eb7c7 in ipairs(IlI1II1l1I:GetChildren()) do if _0x6eb7c7:IsA(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32327,32328)],13719,bit32.bxor(32327,32328))) then _0x6eb7c7:Destroy() end end local _l1l1lI1lI=0 for _0x096c,_rjuszjjcipk in ipairs(lllII11lIIl:GetPlayers()) do if _rjuszjjcipk~=_ipww_vwyl then local _mtaiqyb=Instance.new(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32327,32328)],13719,bit32.bxor(32327,32328))) _mtaiqyb.Size=UDim2.new(1,0,0,(bit32.bxor(88,187)-199)) _mtaiqyb.BackgroundColor3=_cnurlyam[_rjuszjjcipk.Name] and Color3.fromRGB(((601-4)-417),((190-82)-58),(math.floor(250/5))) or Color3.fromRGB((bit32.bxor(75,182)-203),(math.floor(200/4)),(bit32.bxor(64,114))) _mtaiqyb.Text=_rjuszjjcipk.Name _mtaiqyb.TextColor3=Color3.new(1,1,1) _mtaiqyb.Font=Enum.Font.SourceSans _mtaiqyb.TextSize=(bit32.bxor(209,223)) _mtaiqyb.Parent=IlI1II1l1I _mtaiqyb.MouseButton1Click:Connect(function() if _cnurlyam[_rjuszjjcipk.Name] then _cnurlyam[_rjuszjjcipk.Name]=nil _mtaiqyb.BackgroundColor3=Color3.fromRGB((bit32.bxor(27,41)),(bit32.bxor(181,135)),(math.floor(400/8))) else _cnurlyam[_rjuszjjcipk.Name]=true _mtaiqyb.BackgroundColor3=Color3.fromRGB((bit32.bxor(529,78)-427),(math.floor(200/4)),(math.floor(250/5))) end end) _l1l1lI1lI=_l1l1lI1lI+(bit32.bxor(150,182)) end end IlI1II1l1I.CanvasSize=UDim2.new(0,0,0,_l1l1lI1lI) end lllII11lIIl.PlayerAdded:Connect(_galtribi) lllII11lIIl.PlayerRemoving:Connect(function(_ueitf_kb) _cnurlyam[_ueitf_kb.Name]=nil _galtribi() end) _galtribi() _0xa1772910.InputBegan:Connect(function(_0xd462,l111I1Illl) if l111I1Illl then return end if _0xd462.KeyCode==Enum.KeyCode.RightShift then _owshpia.Visible=not _owshpia.Visible end end) _0xa1772910.InputBegan:Connect(function(_0x5b3f2c,_0xd895bbe3) if _0xd895bbe3 then return end if _0x5b3f2c.KeyCode==Enum.KeyCode.Y then lIIIII111Il.Holding=true end end) _0xa1772910.InputEnded:Connect(function(_mhywuzc) if _mhywuzc.KeyCode==Enum.KeyCode.Y then lIIIII111Il.Holding=false end end) _ccpeeqg.RenderStepped:Connect(function() if not lIIIII111Il.Holding then return end local lll1lII1I=_ipww_vwyl.Character if not lll1lII1I then return end _fnak_vob.FilterDescendantsInstances={lll1lII1I} local _0x463ba=_0xa1772910:GetMouseLocation() local _vrfoosxfaoy=_0x48de62:ViewportPointToRay(_0x463ba.X,_0x463ba.Y) local _0xdf815=workspace:Raycast(_vrfoosxfaoy.Origin,_vrfoosxfaoy.Direction*(bit32.bxor(1137,188)-229),_fnak_vob) if not _0xdf815 then return end local _lszuenmtek=_0xdf815.Instance:FindFirstAncestorOfClass(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32344,32328)],26774,bit32.bxor(32344,32328))) if not _lszuenmtek or _lszuenmtek==lll1lII1I then return end local I1111I1lI1l1=lllII11lIIl:GetPlayerFromCharacter(_lszuenmtek) if I1111I1lI1l1 and _cnurlyam[I1111I1lI1l1.Name] then return end local _wsqvgdv_gcn=_lszuenmtek:FindFirstChild(_ptqhlsa(_I1IlII1lI11l[bit32.bxor(32345,32328)],50829,bit32.bxor(32345,32328))) if not _wsqvgdv_gcn then return end local _kxbygngmsh=_0x48de62.CFrame.Position local l11Il1I1lI1I=(_0xdf815.Position - _kxbygngmsh).Unit local _gvlqdtbwryu=_wsqvgdv_gcn.Position - _kxbygngmsh local _0xbde1=l11Il1I1lI1I:Dot(_gvlqdtbwryu) local _0xd4e15e8=_kxbygngmsh+l11Il1I1lI1I*_0xbde1 if (_0xd4e15e8 - _wsqvgdv_gcn.Position).Magnitude>l1II1I1lI1 then return end local _ltaxmxc=l1lIIlIl1111l1() if not _ltaxmxc then return end _ltaxmxc:Activate() end)
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local HttpService = game:GetService("HttpService")
+
+local Camera = workspace.CurrentCamera
+local LocalPlayer = Players.LocalPlayer
+
+local Trigger = {
+    Holding = false
+}
+
+local humanoidSize = 40
+
+-- whitelist: players in this table are IGNORED by the triggerbot
+local IgnoreList = {}
+
+local params = RaycastParams.new()
+params.FilterType = Enum.RaycastFilterType.Blacklist
+params.IgnoreWater = true
+
+local function GetGun()
+    local char = LocalPlayer.Character
+    if not char then return end
+    for _, v in ipairs(char:GetChildren()) do
+        if v:IsA("Tool") then
+            return v
+        end
+    end
+end
+
+-- simple GUI
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "TriggerWhitelist"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.Parent = game:GetService("CoreGui")
+
+local Frame = Instance.new("Frame")
+Frame.Size = UDim2.new(0, 220, 0, 300)
+Frame.Position = UDim2.new(0, 20, 0.5, -150)
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.BorderSizePixel = 0
+Frame.Active = true
+Frame.Draggable = true
+Frame.Parent = ScreenGui
+
+local Title = Instance.new("TextLabel")
+Title.Size = UDim2.new(1, 0, 0, 30)
+Title.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Title.Text = "Ignore List"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.Font = Enum.Font.SourceSansBold
+Title.TextSize = 16
+Title.Parent = Frame
+
+local Scrolling = Instance.new("ScrollingFrame")
+Scrolling.Size = UDim2.new(1, -10, 1, -40)
+Scrolling.Position = UDim2.new(0, 5, 0, 35)
+Scrolling.BackgroundTransparency = 1
+Scrolling.ScrollBarThickness = 4
+Scrolling.CanvasSize = UDim2.new(0, 0, 0, 0)
+Scrolling.Parent = Frame
+
+local UIList = Instance.new("UIListLayout")
+UIList.Padding = UDim.new(0, 4)
+UIList.Parent = Scrolling
+
+local function RefreshList()
+    for _, child in ipairs(Scrolling:GetChildren()) do
+        if child:IsA("TextButton") then
+            child:Destroy()
+        end
+    end
+
+    local y = 0
+    for _, plr in ipairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer then
+            local btn = Instance.new("TextButton")
+            btn.Size = UDim2.new(1, 0, 0, 28)
+            btn.BackgroundColor3 = IgnoreList[plr.Name] and Color3.fromRGB(180, 50, 50) or Color3.fromRGB(50, 50, 50)
+            btn.Text = plr.Name
+            btn.TextColor3 = Color3.new(1, 1, 1)
+            btn.Font = Enum.Font.SourceSans
+            btn.TextSize = 14
+            btn.Parent = Scrolling
+
+            btn.MouseButton1Click:Connect(function()
+                if IgnoreList[plr.Name] then
+                    IgnoreList[plr.Name] = nil
+                    btn.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+                else
+                    IgnoreList[plr.Name] = true
+                    btn.BackgroundColor3 = Color3.fromRGB(180, 50, 50)
+                end
+            end)
+
+            y = y + 32
+        end
+    end
+    Scrolling.CanvasSize = UDim2.new(0, 0, 0, y)
+end
+
+Players.PlayerAdded:Connect(RefreshList)
+Players.PlayerRemoving:Connect(function(plr)
+    IgnoreList[plr.Name] = nil
+    RefreshList()
+end)
+RefreshList()
+
+-- toggle GUI with RightShift
+UserInputService.InputBegan:Connect(function(input, gp)
+    if gp then return end
+    if input.KeyCode == Enum.KeyCode.RightShift then
+        Frame.Visible = not Frame.Visible
+    end
+end)
+
+UserInputService.InputBegan:Connect(function(input, gp)
+    if gp then return end
+    if input.KeyCode == Enum.KeyCode.Y then
+        Trigger.Holding = true
+    end
+end)
+
+UserInputService.InputEnded:Connect(function(input)
+    if input.KeyCode == Enum.KeyCode.Y then
+        Trigger.Holding = false
+    end
+end)
+
+RunService.RenderStepped:Connect(function()
+    if not Trigger.Holding then return end
+
+    local char = LocalPlayer.Character
+    if not char then return end
+    params.FilterDescendantsInstances = { char }
+
+    local mousePos = UserInputService:GetMouseLocation()
+    local ray = Camera:ViewportPointToRay(mousePos.X, mousePos.Y)
+    local result = workspace:Raycast(ray.Origin, ray.Direction * 1000, params)
+    if not result then return end
+
+    local model = result.Instance:FindFirstAncestorOfClass("Model")
+    if not model or model == char then return end
+
+    -- whitelist check
+    local targetPlayer = Players:GetPlayerFromCharacter(model)
+    if targetPlayer and IgnoreList[targetPlayer.Name] then
+        return
+    end
+
+    local root = model:FindFirstChild("HumanoidRootPart")
+    if not root then return end
+
+    local rayOrigin = Camera.CFrame.Position
+    local rayDir = (result.Position - rayOrigin).Unit
+    local toCenter = root.Position - rayOrigin
+    local projection = rayDir:Dot(toCenter)
+    local closestPoint = rayOrigin + rayDir * projection
+
+    if (closestPoint - root.Position).Magnitude > humanoidSize then return end
+
+    local gun = GetGun()
+    if not gun then return end
+
+    gun:Activate()
+end)
